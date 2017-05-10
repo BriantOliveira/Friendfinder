@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder Survey</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+		<div id="main-container" class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h1><strong>Questions</strong></h1>
+					<div>
+						<div class="input-group">
+							<h3>About you</h3>
+							<p>Name (Required)<p>
+							<input type="text" id="photo" class="form-control" required>
+						</div>
+					</div>
+					<hr>
+					<div id="survey">
+
+						<h3><strong>Question #1</strong></h3>
+						<h4>Do you thing that doing fun adventures is the first date is important to keep it going?</h4> 
+						<select data-placeholder="" class="chosen-select" id="q1">
+								<option value=""></option>
+							<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+						</select>
+
+						<h3><strong>Question #2</strong><h3>
+							<h4>The movies is the best place for a first date?<h4>
+								<select data-placeholder="" class="chosen-select" id="q2">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+
+						<h3><strong>Question #3</strong></h3>
+							<h4>Personality is the first thing that attracts you in someone?</h4>
+							<select data-placeholder="" class="chosen-select" id="q3">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+						
+						<h3><strong>Question #4</strong></h3>
+						 <h4>Do you believe that being romatic often is substantial for a healthy relationship?</h4>
+						 <select data-placeholder="" class="chosen-select" id="q4">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+
+						<h3><strong>Question #5</strong><h3>
+							<h4>Do you thing that is important for your partner to be able to handle family crises?</h4>
+							<select data-placeholder="" class="chosen-select" id="q5">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+						
+						<h3><strong>Question #6</strong></h3>
+						<h4>People can rarely upset you?</h4>
+						<select data-placeholder="" class="chosen-select" id="q6">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+						
+						<h3><strong>Question #7</strong></h3>
+						<h4>You rarely feel awkward meeting new people</h4>
+						<select data-placeholder="" class="chosen-select" id="q7">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+
+						<h3><strong>Question #8</strong></h3>
+						<h4>Do you bellieve that every partner should know how to cook</h4>
+						<select data-placeholder="" class="chosen-select" id="q8">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+
+						<h3><strong>Question #9</strong></h3>
+						<h4>You are honest at all times with your partner</h4>
+						<select data-placeholder="" class="chosen-select" id="q9">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+
+						<h3><strong>Question #10</strong></h3>
+						<h4>You feel more energetic after spending time with a group of people</h4>
+						<select data-placeholder="" class="chosen-select" id="q9">
+									<option value="1">1 (Strongly Disagree)</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5 (Strongly Agree)</option>
+								</select>
+				</div>
+				<button type="submit" id="submit" class="btn btn-sucess btn-lg btn-block"> <span class="glyphicon glyphicon-check"></span>Submit</button>
+			 	</div>
+			 	
+
+			 </div>
+			</div>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledb="myMordalLabel"
+		<div clas="modal-dialog" role="document">
+			<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Congradulations</h4>
+					</div>
+					<div class="modal-body">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+		</footer>
+		<script type="text/javascript">
+			//on click of submit button, ajax on click
+			$('#submit').on('click', fuction(){
+				var newFriend = {
+					'name': $('#name').val().trim(),
+					'photo': $('#photo').val().trim(), 
+					'scores': [$('#q1').val(),$('#q2').val(),$('#q3').val(),$('#q4').val(),$('#q5').val(),$('#q6').val(),$('#q7').val,$('#q8').val(),$('#q9').val(),$('#10').val()]
+				};
+				//grab current URL for post method
+				var currentURL = window.location.origin;
+
+				//ajax send info to api route and await reponse
+				$.post(currentURL+"/api/friends", newFriend, function(data){
+					//test data retrieval 
+					//console.log(data);
+
+				})
+
+					.done(function(data){
+						//test data retrival 
+						//console.log(data);
+
+						//build info into modal, use html to replace previous friend
+						$('.modal-body').html('<h1> New friend found!</h1>'+
+																		'<h3>'+data.name+'</h3>'
+																		'<img src="'+data.photo+'" width=300px>');
+						//toggle modal to appear on page
+						$('#myModal').modal('toggle');
+
+					});
+
+				})
+			</script>
+		</body>
+	</hmtl>
+
+
+
+
